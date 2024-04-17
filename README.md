@@ -1,44 +1,58 @@
-# CONSUMER-SHOPPING-USING-PYTHONEHAVIOUR-ANALYSIS-
-# Airport-Authority-Analysis
+# CONSUMER-SHOPPING-BEHAVIOUR-ANALYSIS-USING-PYTHON
 ## Table of Contents
 - [Project Overview](project-overview)
 - [Data Sources](data-sources)
 - [Tools](tools)
-- [Problem Analyzed](problem-analyzed)
-- [Results/Findings](results/findings)
-- [Dashboard](dashboard)
+- [Procedure](procedure)
+- [Results and Recommendation](results-and-recommendation)
+
 
 ## Project Overview
-This data analysis project aims to gain insights on the average delay and cancelled flights by different airlines in an airport.And also gain deeper understanding of the airline traffic on each day from the year 2009 to 2011. 
+The 'Customer sales data'provides detailed overview of the customer preferences including their demographic details,product preferences,purchase history,prefered shipping method etc.Using this data we can analyze the relationship between one another. This helps to make customer based decision making like target market identification,identify marketing strategies etc ,this helps in optimizing the customer satisfaction and increases the overall sales rate. 
 ## Data Sources
-Airline dataset: The primary dataset used for this analysis is the "Airline dataset.xlsx" file, containing detailed information about the details of customers who have churned from the services.
+Customer sales dataset: The primary dataset used for this analysis is the "Customer sales data.csv" file, containing detailed information about the sales made for each customers.
 
 ## Tools
-- Power BI
-- Power Query Editor
+-Jupyter Notebook
 ## Procedure
-- Data load and Opened in Power Query Editor to transform the values.
-- Data type of the column are changed accordingly.
-- - The data was analyzed using Column distribution,column profile.
-- Null values was handled in Avg Delay column identified by Column quality.
-- The datatype of this columns is changed.
-- Date and Time was seperated into two columns using Text to column function.  .
-- Formated and Cleaned data is loaded to Power Bi 
-- Exploratory Data Analysis
-- Data visualization using interactive Dashboard
-
-## Problem Analyzed 
-- What is the total average delay of flights?
-- How is the delay and cancelled flights for each airlines?
-- Which is the ailines with highest delay?
-- In which day of the week traffic is higher?
-
-## Results/Findings
+- Importing data from csv file to Jupyter Notebook by using Pandas.
+- All description and statistical information about the data has been analyzed.
+- Data cleaning and preparation
+   - Removing of duplicates
+   - Identification of blank cells in each column
+   - Removing null values
+- Visualization  of cleaned data
+   - Identifying the Age group of customers
+   - Gender distribution by purchase Amount
+   - Visualization of top 15 location by Average Purchased value
+   - Shopping Behaviour in each region
+   - Impact of Season on Purchase
+   - Category distribution by number products sold
+   - Average Review Rating for each category
+   - Visualization of frequency of Purchase each Products
+ - Insights
+## Results and Recommendation
 The analysis results are summarized as follows:
+- Target market is between the age group of 20 to 70 years in which priotize 60 years group as they are the largest growing customer segment.
 
-- Delta airlines has the highest amount of average flight delays.
-- 36% of flights has been delayed and 2% of flights cancelled.
-- Delay rate was higher during 2009 and 2010 compared to 2011.
-- Total flights in January is the highest .
+- Male customers are 35% more than female customers.Increase items and category for male whereas focus female in marketing and sales strategies.
 
-## Dashboard
+- Focus marketing in 'Alaska','Pennsylvania','Arizona' region as they have the high value customers.
+
+- Regional trends for every region is identified based on which marketing and promotional activities can be planned.
+
+- Focus on having higher stock in 'M' size has 45% of customers shop.
+
+- Customers shop more during 'Winter' and 'Fall' compared to 'Spring' and 'Summer'.
+
+- Clothing is the most popular category among the customers of all demographics.'Outerwear' is the least popular category so markteing and promotional activities should be planned for it to increase the sales.
+
+- Average review rating for all item category is same and equal to 3.7.
+
+- Usage of promotional codes does not have significant impact on the purchasing behaviour.
+
+- The most preferred payment method among the customers is 'PayPal'.
+
+- 'Blouse' and 'Jewelry' are the highest purchased items by the customers.
+
+- 'Coupon for more than 10 Purchases','Combo offer for most purchased item','Combo offer for least purchased item','Combo offer for most and least item' are some of the marketing strategies that can be applied to increase the overall sales.
